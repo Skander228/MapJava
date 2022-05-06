@@ -9,12 +9,11 @@ public class Main {
         int n = Integer.parseInt(in.nextLine());
         Map<String, String> namePhone = new HashMap<>();
 
-        for(int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) {
             namePhone.put(in.nextLine(), in.nextLine());
         }
 
-        while(in.hasNext()) {
-
+        while (in.hasNext()) {
             String s = in.nextLine();
             if (namePhone.containsKey(s)) {
                 String namePro = namePhone.get(s);
