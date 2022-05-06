@@ -14,6 +14,7 @@ public class Main {
         }
 
         while(in.hasNext()) {
+
             String s = in.nextLine();
             if (namePhone.containsKey(s)) {
                 String namePro = namePhone.get(s);
